@@ -104,7 +104,7 @@
                             ? l[m].node.edge_media_to_caption.edges[0].node.text : "undefined" 
                             != typeof l[m].node.accessibility_caption && null !== l[m].node.accessibility_caption 
                             ? l[m].node.accessibility_caption : (g ? c.name : c.username) + " image " 
-                            + m, j += "<div id='int' class='col-sm-6 col-lg-3 col-md-3'><a href='" + q + "target='_blank'>"
+                            + m, j += "<div id='int' class='col-sm-6 col-lg-3 col-md-3'><a href='" + q + "' target='_blank'>"
                             , j += "<img" + (f.lazy_load ? " loading='lazy'" : "") + " src='" + n 
                             + "' alt='" + b(p) + "' />", j += "</a><p>" + resumo(b(p),180) +"</p></div>"
                         }
