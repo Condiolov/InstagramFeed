@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="Bootstrapv4.5.2.css" media="screen">
+	<script src="jQueryv3.5.1.js"></script>
+	<script src="InstagramFeed.js"></script> 
+	<script src="Bootstrapv4.5.2.js"></script>
+
+	<title>InstagramFeed by Condiolov</title>
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-12">
+			<div id="instagram-feed-demo" class="instagram_feed"></div>
+		</div>
+	</div>
+	
+	
+	<style type="text/css">
+		.instagram_gallery {
+			display: flex;
+			flex-flow: row wrap;
+		}
+		#int img {
+			display: block;
+			border-radius: 10px;     
+			margin: 5px;
+			width: 100%;
+		}
+		p.instagram_gallery {
+			text-align: center;
+		} 
+
+	</style>
+	<script type="text/javascript">
+		$(window).on('load', function(){
+			$.instagramFeed({
+				'username': 'condiolov',
+				'container': "#instagram-feed-demo"
+			});
+		});
+	</script>
+
+</body>
+</html>
