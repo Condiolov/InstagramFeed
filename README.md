@@ -6,5 +6,6 @@ Esta é a versão **Vanilla** JavaScript do plugin jQuery instagramFeed , que aj
 
 "original post":https://www.cssscript.com/instagram-photos-feed/
 
+**DEMO:** https://condiolov.github.io/InstagramFeed/index.html
 
 Rusumo limita o numero de caracteres no texto buscado da imagem.
